@@ -1,6 +1,6 @@
-package br.com.alura.ScreenMatch;
+package br.com.project.ScreenMatch;
 
-import br.com.alura.ScreenMatch.Principal.Principal;
+import br.com.project.ScreenMatch.Principal.Principal;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

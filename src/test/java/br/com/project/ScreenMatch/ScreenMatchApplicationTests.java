@@ -1,4 +1,4 @@
-package br.com.alura.ScreenMatch;
+package br.com.project.ScreenMatch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

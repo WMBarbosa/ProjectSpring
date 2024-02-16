@@ -1,4 +1,4 @@
-package br.com.alura.ScreenMatch.Service;
+package br.com.project.ScreenMatch.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package br.com.alura.ScreenMatch.Model;
+package br.com.project.ScreenMatch.Model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

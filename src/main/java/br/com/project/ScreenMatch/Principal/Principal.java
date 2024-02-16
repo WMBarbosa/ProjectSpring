@@ -1,11 +1,11 @@
-package br.com.alura.ScreenMatch.Principal;
+package br.com.project.ScreenMatch.Principal;
 
-import br.com.alura.ScreenMatch.Model.DadosEpisodio;
-import br.com.alura.ScreenMatch.Model.DadosSerie;
-import br.com.alura.ScreenMatch.Model.DadosTemporada;
-import br.com.alura.ScreenMatch.Model.Episodio;
-import br.com.alura.ScreenMatch.Service.ConsumoApi;
-import br.com.alura.ScreenMatch.Service.ConverterDados;
+import br.com.project.ScreenMatch.Model.DadosEpisodio;
+import br.com.project.ScreenMatch.Model.DadosSerie;
+import br.com.project.ScreenMatch.Model.DadosTemporada;
+import br.com.project.ScreenMatch.Model.Episodio;
+import br.com.project.ScreenMatch.Service.ConsumoApi;
+import br.com.project.ScreenMatch.Service.ConverterDados;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -38,7 +38,7 @@ public void obterDadosCompletos(){
         temporadas.add(dadosTemporada);
     }
     temporadas.forEach(System.out::println);
-    
+
     System.out.println("\nLista ordenada");
     List<Episodio> episodios = temporadas.stream()
             .flatMap(t -> t.episodios().stream()
