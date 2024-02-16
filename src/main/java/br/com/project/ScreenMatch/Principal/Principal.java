@@ -38,8 +38,7 @@ public void obterDadosCompletos(){
         temporadas.add(dadosTemporada);
     }
     temporadas.forEach(System.out::println);
-
-
+    
     System.out.println("\nLista ordenada");
     List<Episodio> episodios = temporadas.stream()
             .flatMap(t -> t.episodios().stream()
